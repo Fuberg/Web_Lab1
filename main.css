@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     font-family: 'Sintony', ;
     color: #5c6369;
@@ -13,6 +18,10 @@ h1, h2, h3, h4, h5 ,h6 {
     font-family: 'Playfair Display', ;
     font-weight: 700;
     color: #14141d;
+}
+
+p {
+    line-height: 1.9em;
 }
 
 .yellow {
@@ -33,7 +42,7 @@ h1, h2, h3, h4, h5 ,h6 {
     text-transform: uppercase;
 }
 
-.book {
+.cta {
     background: #fea100;
     color: #fff;
     font-size: 14px;
@@ -46,6 +55,12 @@ h1, h2, h3, h4, h5 ,h6 {
     width: 200px;
     border: 0;
     margin-top: -5px;
+    text-align: center;
+}
+
+.cta:hover {
+    text-decoration: none;
+    color: #fff;
 }
 
 .book__icon {
@@ -65,7 +80,7 @@ h1, h2, h3, h4, h5 ,h6 {
 }
 
 .title {
-    padding: 220px 0 ;
+    padding: 200px 0 ;
 }
 
 .title__heading {
@@ -117,4 +132,38 @@ h1, h2, h3, h4, h5 ,h6 {
     color: #14141d;
     margin-left: 42px;
     margin-top: -5px;
+}
+
+.about {
+    padding: 65px 0 100px;
+}
+
+.history {
+    margin-top: 60px;
+}
+
+.history__title {
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+.history__text {
+    font-size: 14px;
+}
+
+.history__button {
+    width: 148px;
+    margin-top: 48px;
+}
+
+.food-images {
+
+}
+
+.food-images__item {
+    margin-bottom: 10px;
+}
+
+.food-images-down {
+    margin-top: 40px;
 }
